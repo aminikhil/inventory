@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddInventory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Name :"/>
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Price :\t\t₹."/>
+        <EditText
+            android:id="@+id/edit_price"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Quantity :"/>
+        <EditText
+            android:id="@+id/edit_quantity"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in Kg/Ltr"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:text="Supplier :"/>
+        <Spinner
+            android:id="@+id/supplier_spinner"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+
+</LinearLayout>

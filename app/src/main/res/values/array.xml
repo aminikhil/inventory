@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supplier_option">
+        <item>Unknown</item>
+        <item>Supplier A</item>
+        <item>Supplier B</item>
+        <item>Supplier C</item>
+    </string-array>
+</resources>

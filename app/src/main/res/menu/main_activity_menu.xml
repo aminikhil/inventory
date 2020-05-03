@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InventoryActivity"
+    >
+
+    <item app:showAsAction="never"
+        android:id="@+id/supplier_menu"
+        android:title="Suppliers" />
+
+    <item
+        android:id="@+id/delete_all_data"
+        android:title="Delete All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/login_menu"
+        android:icon="@drawable/baseline_exit_to_app_white_24"
+        app:showAsAction="always"
+        android:title="Logout" />
+
+</menu>
